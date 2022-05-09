@@ -1,0 +1,879 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff !important;
+    font: normal normal normal 14px Noto Sans Myanmar !important;
+}
+ul {
+    list-style: none;
+}
+hr {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+}
+input, select {
+    border-radius: 1px;
+}
+
+#header {
+    width: 100%;
+    height: 74px;
+    background: #f6f6f6 0% 0% no-repeat padding-box;
+    box-shadow: 0px 12px 19px #0000000d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 2;
+    position: relative;
+}
+#header > img {
+    width: 129px;
+    height: 33px;
+}
+#footer {
+    width: 100%;
+    height: 74px;
+    background: #f6f6f6 0% 0% no-repeat padding-box;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#footer span {
+    text-align: left;
+    font: normal normal normal 14px Noto Sans Myanmar;
+    letter-spacing: 0px;
+    color: #707070;
+}
+#content {
+    margin-top: 38px;
+    min-height: calc(100vh - 216px);
+    max-width: 800px;
+    padding: 0 15px;
+    .account {
+        height: 166px;
+        background: #f6f6f6 0% 0% no-repeat padding-box;
+        border-radius: 3px;
+        position: relative;
+        padding-left: 41px;
+        margin-bottom: 29px;
+        margin-left: 0;
+        margin-right: 0;
+        .box-info {
+            position: absolute;
+            left: 139px;
+            top: 47px;
+            width: calc(100% - 420px);
+            .info {
+                .logout {
+                    text-align: left;
+                    font: normal normal normal 12px Noto Sans Myanmar;
+                    letter-spacing: 0px;
+                    color: #262626;
+                    text-decoration: none;
+                    cursor: pointer;
+                    img {
+                        margin-top: -4px;
+                    }
+                }
+            }
+        }
+        .box-amount {
+            position: absolute;
+            right: 51px;
+            top: 28px;
+            background: #BC2323 0% 0% no-repeat padding-box;
+            border-radius: 3px;
+            min-width: 178px;
+            height: 110px;
+            padding: 15px 30px;
+            div {
+                width: 100%;
+                height: 50%;
+                text-align: center;
+                &:nth-child(2) {
+                    text-align: left;
+                }
+                .title-price {
+                    width: 100%;
+                    height: 45%;
+                    text-align: center;
+                    font: normal normal normal 14px Noto Sans Myanmar;
+                    color: #FFFFFF;
+                }
+                .price {
+                    width: 100%;
+                    height: 45%;
+                    text-align: center;
+                    font: normal normal bold 24px Noto Sans Myanmar;
+                    color: #FFFFFF;
+                }
+            }
+
+        }
+        .avatar img {
+            width: 80px;
+            height: 80px;
+            border-radius: 100%;
+            object-fit: cover;
+            margin: auto 0;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 41px;
+            right: 0;
+            border: 3px solid #ba0000;
+        }
+    }
+    .form-group {
+        .wsp-cartoon-name {
+            display: none;
+        }
+        .wsp-title-upload {
+            display: none;
+        }
+        .cartoon-name {
+            display: block;
+            text-align: left;
+            margin-bottom: 13px;
+            border-bottom: 2px solid #bc2323;
+            display: inline-block;
+            font-family: Noto Sans Myanmar;
+            height: 28px;
+        }
+        .btn-upload-file {
+            width: 147px;
+            height: 48px;
+            background: transparent
+                linear-gradient(96deg, #ba0000 0%, #e59960 100%) 0% 0% no-repeat
+                padding-box;
+            border-radius: 5px;
+            line-height: 48px;
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+            margin-bottom: 27px;
+            span {
+                text-align: center;
+                font: normal normal normal 14px Noto Sans Myanmar;
+                letter-spacing: 0px;
+                color: #ffffff;
+            }
+        }
+        .noti-upload {
+            color: #707070;
+            font-size: 14px;
+            margin-left: 7px;
+        }
+        .title-upload-history {
+            margin-bottom: 13px;
+            border-bottom: 2px solid #bc2323;
+            display: inline-block;
+            font-family: Noto Sans Myanmar;
+            height: 28px;
+        }
+        .history-upload {
+            .box-book-item {
+                position: relative;
+                padding: 20px 13px;
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                border-radius: 3px;
+                margin-bottom: 13px;
+                .image-book {
+                    display: inline-block;
+
+                    img {
+                        width: 139px;
+                        height: 92px;
+                    }
+                }
+                .info-video {
+                    position: absolute;
+                    display: inline-block;
+                    width: calc(100% - 133px);
+                    margin-left: 17px;
+                    max-width: calc(100% - 210px);
+                    .box-info-video {
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        .manga-name {
+                            height: 24px;
+                            font: normal normal bold 14px Noto Sans Myanmar !important;
+                            letter-spacing: 0px;
+                            color: #222222;
+                            margin-bottom: 0;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                        }
+                        .league {
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            .league-title {
+                                font: normal normal normal 14px Noto Sans
+                                    Myanmar;
+                                letter-spacing: 0px;
+                                color: #747474;
+                            }
+                            .league-name {
+                                font: normal normal bold 14px Noto Sans Myanmar;
+                                letter-spacing: 0px;
+                                color: #222222;
+                            }
+                        }
+                        .date {
+                            text-align: left;
+                            font: normal normal normal 12px/18px Noto Sans
+                                Myanmar;
+                            letter-spacing: 0px;
+                            color: #999999;
+                            margin-bottom: 0px;
+                        }
+                        .pdf {
+                            font: normal normal normal 12px/24px Noto Sans
+                                Myanmar;
+                            letter-spacing: 0px;
+                            color: #999999;
+                            text-align: left;
+                            letter-spacing: 0px;
+                            margin-bottom: 0;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            img {
+                                width: 14px;
+                                height: 18px;
+                                margin-right: 10px;
+                                margin-top: -8px;
+                            }
+                        }
+                    }
+                }
+                .icon_close {
+                    top: 10px;
+                    right: 13px;
+                    position: absolute;
+                    cursor: pointer;
+                    width: 22px;
+                }
+            }
+        }
+    }
+}
+
+label.name {
+    text-align: left;
+    font: normal normal bold 18px Noto Sans Myanmar;
+    letter-spacing: 0px;
+    color: #bc2323;
+    margin-bottom: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 27px;
+}
+label.user-id {
+    text-align: left;
+    font: normal normal normal 14px Noto Sans Myanmar;
+    letter-spacing: 0px;
+    color: #222222;
+    height: 20px;
+}
+
+.info,
+.amount,
+.amount-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.amount > div {
+    padding: 24px 33px;
+    height: 110px;
+    background: #bc2323 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+}
+
+.amount > div .title {
+    text-align: center;
+    font: normal normal normal 14px Noto Sans Myanmar;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+
+.amount > div .price {
+    text-align: left;
+    font: normal normal bold 24px Noto Sans Myanmar;
+    letter-spacing: 0px;
+    color: #ffffff;
+    display: flex;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    font: normal normal bold 18px Noto Sans Myanmar;
+    letter-spacing: 0px;
+    color: #262626;
+}
+
+.btn-login {
+    width: 147px;
+    height: 48px;
+    background: transparent linear-gradient(96deg, #ba0000 0%, #e59960 100%) 0%
+        0% no-repeat padding-box;
+    border-radius: 3px;
+    line-height: 48px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 27px;
+}
+
+.under-line-title-upload {
+    background: #bc2323 0% 0% no-repeat padding-box;
+    height: 2px;
+    margin-bottom: 21px;
+    width: 115px;
+}
+
+.history-upload .title {
+    text-align: left;
+    font: normal normal bold 18px Noto Sans Myanmar;
+    letter-spacing: 0px;
+    color: #bc2323;
+}
+.history-upload .video-upload {
+}
+
+.history-upload .video-upload img {
+    width: 264px;
+    height: 135px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.history-upload .video-upload .image-video {
+    display: inline-block;
+}
+
+.info-video {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.date {
+    text-align: left;
+    font: normal normal normal 20px/24px Noto Sans Myanmar;
+    letter-spacing: 0px;
+    color: #999999;
+}
+
+.mango-name {
+    text-align: left;
+    font: normal normal normal 24px/38px Noto Sans Myanmar;
+    letter-spacing: 0px;
+    color: #222222;
+}
+
+.pdf-list .item {
+    width: 100%;
+    height: 145px;
+    background: #fcfcfc 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 24px #460b0b12;
+    border: 1px solid #1d1c4117;
+    padding: 22px;
+    position: relative;
+    margin-bottom: 23px;
+
+    .icon-close {
+        position: absolute;
+        right: 18px;
+        top: 46px;
+        cursor: pointer;
+    }
+    .pdf-info {
+        display: inline-block;
+        position: absolute;
+        top: 43px;
+        width: calc(100% - 160px);
+        left: 100px;
+    }
+    .box-pdf {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 36px;
+
+        .name {
+            width: 80%;
+            text-align: left;
+            font: normal normal bold 24px/29px Noto Sans Myanmar;
+            letter-spacing: 0px;
+            color: #222222;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .size {
+            text-align: left;
+            font: normal normal normal 24px/29px Noto Sans Myanmar;
+            letter-spacing: 0px;
+            color: #999999;
+        }
+        .date {
+            text-align: left;
+            font: normal normal normal 20px/24px Noto Sans Myanmar;
+            letter-spacing: 0px;
+            color: #999999;
+        }
+    }
+}
+
+.video__image {
+    width: 100%;
+    height: 135px;
+    object-fit: cover;
+    border-radius: 3px;
+    border: 0.1px solid #1d1c4117;
+}
+#uploadFileModalTitle {
+    text-align: center;
+    font: normal normal 800 20px Noto Sans Myanmar;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.box-upload-file {
+    text-align: center;
+    font: normal normal bold 18px Noto Sans Myanmar;
+    letter-spacing: 0px;
+    color: #747474;
+}
+.box-upload-file-noti {
+    color: #bc2323;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.card-login {
+    width: 100%;
+    height: 418px;
+    background: #f6f6f6 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    text-align: center;
+    margin: 0 !important;
+    margin-top: calc(50% - 226px) !important;
+    .col-md-8 {
+        #form-login {
+            .title-login {
+                text-align: center;
+                font: normal normal bold 20px Noto Sans Myanmar;
+                letter-spacing: 0px;
+                color: #333333;
+                margin-top: 32px;
+            }
+            .form-email {
+                label {
+                    display: block;
+                    float: left;
+                    text-align: left;
+                    font: normal normal bold 18px Noto Sans Myanmar;
+                    letter-spacing: 0px;
+                    color: #333333;
+                    margin-top: 14px;
+                }
+                input {
+                    max-width: 690px;
+                    width: 100%;
+                    height: 48px;
+                    background: #ffffff 0% 0% no-repeat padding-box;
+                    border: none;
+                }
+            }
+            .box-msg-email {
+                text-align: left;
+                height: 0;
+                margin-top: 2px;
+                .errMsg {
+                }
+            }
+            .form-password {
+                margin-top: 22px;
+                label {
+                    display: block;
+                    float: left;
+                    text-align: left;
+                    font: normal normal bold 18px Noto Sans Myanmar;
+                    letter-spacing: 0px;
+                    color: #333333;
+                }
+                input {
+                    max-width: 690px;
+                    width: 100%;
+                    height: 48px;
+                    background: #ffffff 0% 0% no-repeat padding-box;
+                    border: none;
+                }
+            }
+            .box-msg-password {
+                text-align: left;
+                height: 0;
+                margin-top: 2px;
+            }
+            .btn-login {
+                margin: 28px auto;
+
+                span {
+                    text-align: center;
+                    font: normal normal bold 14px Noto Sans Myanmar;
+                    letter-spacing: 0px;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+.errMsg {
+    color: red;
+}
+#uploadFileModal {
+    .modal-body {
+        padding: 0px;
+        .header-modal {
+            padding: 11px 0;
+            background: #f8f8f8 0% 0% no-repeat padding-box;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            margin-bottom: 33px;
+        }
+        .box-content-modal {
+            margin: 0 16px;
+            .title-box {
+                margin-bottom: 12px;
+            }
+            .sub-box-content {
+                margin-bottom: 10px;
+            }
+            .box-input-title {
+                margin-bottom: 15px;
+                .err-input-name {
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+    .close-modal {
+        width: 26px;
+        height: 26px;
+        position: absolute;
+        right: 0;
+        top: -40px;
+        cursor: pointer;
+    }
+    #select-league {
+        font: normal normal normal 14px/46px Noto Sans Myanmar;
+        letter-spacing: 0px;
+        color: #747474;
+        padding: 0 20px;
+        background: url(../../assets/icons/portal/arrow-down-select.svg)
+            no-repeat right #f8f8f899;
+        -webkit-appearance: none;
+        background-position-x: calc(100% - 10px);
+        padding: 0 20px;
+        width: 100%;
+        height: 48px;
+        border: 1px solid #1d1c4117;
+    }
+    .box-upload {
+        height: 157px;
+        position: relative;
+        margin-bottom: 12px;
+        .rectangle {
+            position: absolute;
+            display: inline-block;
+            left: calc(50% - 132px);
+            cursor: pointer;
+            width: 264px;
+            height: auto;
+        }
+        .photo {
+            display: inline-block;
+            position: absolute;
+            left: calc(50% - 77px / 2);
+            top: calc(157px / 2 - 34px);
+            cursor: pointer;
+            width: 77px;
+            height: 68px;
+        }
+        .img-preview {
+            height: 100%;
+            display: block;
+            margin: auto;
+            cursor: pointer;
+        }
+    }
+
+    .input-catoon-name {
+        width: 100%;
+        height: 48px;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        border: 1px solid #1d1c4117;
+        font: normal normal normal 14px Noto Sans Myanmar;
+        padding: 0 10px;
+    }
+    .err-input-name {
+        // margin-top: 3px;
+        // margin-bottom: 15px;
+    }
+    .err-select-league {
+        margin-bottom: 15px;
+    }
+    .err-upload-file {
+        margin-top: 3px;
+    }
+    .err-upload-image {
+        margin-bottom: 15px;
+    }
+    .box-upload-pdf {
+        height: 230px;
+        background: transparent
+            linear-gradient(180deg, #ffffff 0%, #fff6f6 100%) 0% 0% no-repeat
+            padding-box;
+        border: 2px dashed #1d1c4182;
+        border-radius: 3px;
+        position: relative;
+        margin-top: 13px;
+
+        .cloud-computing {
+            position: absolute;
+            top: 36px;
+            left: calc(50% - 34px);
+            width: 67px;
+            height: 48px;
+        }
+        .title-upload-pdf {
+            position: absolute;
+            top: 98px;
+            text-align: center;
+            width: 100%;
+            font: normal normal normal 13px Noto Sans Myanmar;
+            letter-spacing: 0px;
+            color: #747474;
+        }
+        .title-or {
+            position: absolute;
+            top: 123px;
+            text-align: center;
+            width: 100%;
+            font: normal normal bold 18px Noto Sans Myanmar;
+            letter-spacing: 0px;
+            color: #212121;
+
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            padding: 0 30px;
+        }
+        .box-btn-pdf {
+            position: absolute;
+            top: 154px;
+            left: calc(50% - 131px / 2);
+
+            .btn-upload-pdf {
+                width: 131px;
+                height: 48px;
+                background: transparent
+                    linear-gradient(94deg, #ba0000 0%, #e59960 100%) 0% 0%
+                    no-repeat padding-box;
+                border-radius: 5px;
+                line-height: 48px;
+                cursor: pointer;
+                text-align: center;
+                display: block;
+
+                span {
+                    text-align: center;
+                    font: normal normal normal 14px Noto Sans Myanmar;
+                    letter-spacing: 0px;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+    .footer-modal {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+        .btn-submit-modal {
+            display: inline-block;
+            margin-left: 11px;
+            width: 131px;
+            height: 48px;
+            border-radius: 5px;
+            text-align: center;
+            line-height: 50px;
+            cursor: pointer;
+            display: inline-block;
+            margin-right: 11px;
+            background: transparent
+                linear-gradient(94deg, #ba0000 0%, #e59960 100%) 0% 0% no-repeat
+                padding-box;
+            color: #ffffff;
+        }
+        .btn-cancel {
+            width: 131px;
+            height: 48px;
+            background: #e5e5e5 0% 0% no-repeat padding-box;
+            border-radius: 5px;
+            text-align: center;
+            line-height: 50px;
+            cursor: pointer;
+            display: inline-block;
+            margin-right: 11px;
+
+            span {
+                font: normal normal normal 14px Noto Sans Myanmar;
+                letter-spacing: 0px;
+                color: #000000;
+            }
+        }
+    }
+}
+
+#modalDeleteBook,
+#modalLogout {
+    .close-modal {
+        width: 26px;
+        height: 26px;
+        position: absolute;
+        right: 0;
+        top: -40px;
+        cursor: pointer;
+    }
+    .modal-content {
+        padding: 40px;
+    }
+    .title-confirm {
+        text-align: center;
+        font: normal normal bold 23px Noto Sans Myanmar;
+        letter-spacing: 0px;
+        color: #000000;
+        padding: 41px 0;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+
+        .btn-confirm {
+            width: 200px;
+            height: 51px;
+            background: transparent
+                linear-gradient(91deg, #bc2323 0%, #e59960 100%) 0% 0% no-repeat
+                padding-box;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            line-height: 60px;
+
+            span,
+            a {
+                text-align: center;
+                font: normal normal bold 20px Noto Sans Myanmar;
+                letter-spacing: 0px;
+                color: #ffffff;
+                width: 100%;
+                line-height: 51px;
+                text-decoration: none;
+            }
+        }
+
+        .btn-cancel {
+            width: 200px;
+            height: 51px;
+            background: #c5c5c5 0% 0% no-repeat padding-box;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            line-height: 60px;
+
+            span {
+                text-align: center;
+                font: normal normal normal 20px Noto Sans Myanmar;
+                letter-spacing: 0px;
+                color: #000000;
+                width: 100%;
+                line-height: 51px;
+            }
+        }
+    }
+}
+
+.box-book-item:hover {
+    background: #f6f6f6;
+}
+
+.ln-51 {
+    line-height: 51px;
+}
+.loader-outer {
+    position: absolute;
+    bottom: 17px;
+    left: 30px;
+    top: 15px;
+}
+.loader > span {
+    width: 6px;
+    height: 6px;
+    display: block;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 4px;
+}
+
+.loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dot-1 {
+    animation: zoom-in-zoom-out 1s ease-out 0s infinite;
+}
+
+.dot-2 {
+    animation: zoom-in-zoom-out 1s ease-out 0.25s infinite;
+}
+
+.dot-3 {
+    animation: zoom-in-zoom-out 1s ease-out 0.5s infinite;
+}
+
+.dot-4 {
+    animation: zoom-in-zoom-out 1s ease-out 0.75s infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(2, 2);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+.param-required {
+    color: red !important;
+}

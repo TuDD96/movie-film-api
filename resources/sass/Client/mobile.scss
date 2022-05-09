@@ -1,0 +1,477 @@
+@media only screen and (max-width: 535px) {
+    .modal-dialog {
+        margin: 10px 2rem !important;
+    }
+    #header {
+        height: 37px;
+        img {
+            width: 64px;
+            // height: 16.5px;
+        }
+    }
+    #content {
+        margin-top: 19px;
+        max-width: 375px;
+        min-height: calc(100vh - 108px);
+        .account {
+            height: 83px;
+            padding-left: 20.5px;
+            margin-bottom: 14.5px;
+            .avatar {
+                img {
+                    width: 40px;
+                    height: 40px;
+                    left: 20.5px;
+                    border: 2px solid #ba0000;
+                }
+            }
+            .box-info {
+                left: 69.5px;
+                top: 23.5px;
+                width: calc(100% - 220px);
+                .info {
+                    .name {
+                        height: 14px;
+                        font: normal normal bold 9px Noto Sans Myanmar;
+                    }
+                    .user-id {
+                        font: normal normal normal 7px Noto Sans Myanmar;
+                        height: 6px;
+                    }
+                    .logout {
+                        font: normal normal normal 6px Noto Sans Myanmar;
+                        img {
+                            width: 7px;
+                            margin-top: -1px;
+                        }
+                    }
+                }
+            }
+            .box-amount {
+                right: 25.5px;
+                top: 14px;
+                min-width: 88px;
+                height: 55px;
+                padding: 7.5px 7.5px;
+                div {
+                    height: 45%;
+                    .title-price {
+                        font: normal normal normal 7px Noto Sans Myanmar;
+                    }
+                    .price {
+                        font: normal normal bold 12px Noto Sans Myanmar;
+                        .loader-outer {
+                            left: 5px;
+                            top: 50%;
+                            .loader {
+                                span {
+                                    width: 4px;
+                                    height: 4px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .form-group {
+            .title {
+                font: normal normal bold 9px Noto Sans Myanmar;
+            }
+            .wsp-cartoon-name {
+                display: block;
+                height: 7px;
+            }
+            .wsp-title-upload {
+                display: block;
+                height: 8px;
+            }
+            .box-title-cartoon-name {
+                height: 18px !important;
+                .cartoon-name {
+                    margin-bottom: 0px !important;
+                    color: #262626;
+                    height: 17px;
+                }
+            }
+            .under-line-title-upload {
+                margin-bottom: 7px !important;
+                width: 59px;
+            }
+            .box-btn-upload-file {
+                height: 24px !important;
+                .btn-upload-file {
+                    width: 65.5px;
+                    height: 24px;
+                    line-height: 22px;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    border-radius: 3px;
+                    span {
+                        font: normal normal normal 7px Noto Sans Myanmar;
+                        img {
+                            margin-top: -2px !important;
+                            width: 7.5px !important;
+                            height: 7.5px !important;
+                        }
+                    }
+                }
+            }
+            .box-title-upload-history {
+                height: 18px !important;
+                .title-upload-history {
+                    height: 17px;
+                }
+            }
+            .noti-upload {
+                font-size: 6px;
+                margin-left: 3px;
+            }
+            .title {
+                margin-bottom: 14px;
+                color: #262626;
+            }
+            .history-upload {
+                margin-top: 15px;
+                .box-book-item {
+                    padding: 10px 7px;
+                    padding-top: 10px;
+                    margin-bottom: 7px;
+                    .icon_close {
+                        top: 28px;
+                        right: 5px;
+                        width: 16px;
+                        border-radius: 50%;
+                    }
+                    .image-book {
+                        img {
+                            width: 75px;
+                            height: 54px;
+                        }
+                    }
+                    .info-video {
+                        width: calc(100% - 66.5px);
+                        margin-left: 8.5px;
+                        max-width: calc(100% - 120px);
+                        .box-info-video {
+                            .manga-name {
+                                height: 14px;
+                                font: normal normal bold 9px Noto Sans Myanmar !important;
+                            }
+                            .league {
+                                margin-bottom: 0;
+                                .league-title {
+                                    font: normal normal normal 9px Noto Sans
+                                        Myanmar;
+                                }
+                                .league-name {
+                                    font: normal normal normal 9px Noto Sans
+                                        Myanmar;
+                                }
+                            }
+                            
+                            .date {
+                                font: normal normal normal 9px/12px Noto Sans
+                                    Myanmar;
+                            }
+                            .pdf {
+                                font: normal normal normal 8px/11px Noto Sans
+                                    Myanmar;
+                                img {
+                                    width: 10.5px;
+                                    margin-right: 5px;
+                                    margin-top: -4px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .loading {
+            img {
+                width: 17.5px;
+            }
+        }
+    }
+    #footer {
+        height: 37px;
+        margin-top: 15px;
+        span {
+            font: normal normal normal 7px Noto Sans Myanmar;
+        }
+    }
+    #uploadFileModal {
+        .modal-content {
+            .close-modal {
+                width: 13px;
+                height: 13px;
+                top: -20px;
+            }
+            .modal-body {
+                .header-modal {
+                    height: 35px;
+                    padding: 5.5px 0;
+                    border-top-left-radius: 2.5px;
+                    border-top-right-radius: 2.5px;
+                    margin-bottom: 8px;
+                    #uploadFileModalTitle {
+                        font: normal normal bold 15px Noto Sans Myanmar;
+                    }
+                }
+                .box-content-modal {
+                    margin: 0 8px;
+                    .sub-box-content {
+                        margin-bottom: 5px;
+                        .box-upload-file {
+                            font: normal normal bold 12px Noto Sans Myanmar;
+                        }
+                    }
+                    .box-select-league {
+                        #select-league {
+                            padding: 0 10px;
+                            height: 32px;
+                            font: normal normal normal 10px/23px Noto Sans Myanmar;
+                            background-size: 11px;
+                            line-height: 32px;
+                        }
+                    }
+                    .err-select-league {
+                        margin-bottom: 3px;
+                        height: 10px;
+                        margin-top: -6px;
+                        .errMsg {
+                            font: normal normal normal 7px Noto Sans Myanmar;
+                        }
+                    }
+                    .box-upload-file {
+                        font: normal normal bold 12px Noto Sans Myanmar;
+                    }
+                    .box-upload-file-noti {
+                        margin-left: 1px;
+                        font: normal normal bold 8px Noto Sans Myanmar;
+                    }
+                    .box-upload {
+                        height: 77.5px;
+                        margin-bottom: 6px;
+                        .rectangle {
+                            left: calc(50% - 66px);
+                            width: 131px;
+                        }
+                        .photo {
+                            left: calc(50% - 19.25px);
+                            top: calc(50% - 17px);
+                            width: 38.5px;
+                            height: 34px;
+                        }
+                    }
+                    .err-upload-image {
+                        height: 17px;
+                        margin-top: -5px;
+                        margin-bottom: 0;
+                        .errMsg {
+                            font: normal normal normal 7px Noto Sans Myanmar;
+                        }
+                    }
+                    .title-box {
+                        margin-bottom: 5px;
+                    }
+                    .box-input-title {
+                        margin-bottom: 7.5px;
+                        .input-catoon-name {
+                            height: 32px;
+                            padding: 0 5px;
+                            font: normal normal normal 12px Noto Sans Myanmar;
+                        }
+                        .err-input-name {
+                            margin-top: 0;
+                            .errMsg {
+                                font: normal normal normal 7px Noto Sans Myanmar;
+                            }
+                        }
+                    }
+                    .box-upload-pdf {
+                        height: 85px;
+                        margin-top: 5px;
+                        border: 1px dashed #1d1c4182;
+                        .cloud-computing {
+                            top: 10px;
+                            left: calc(50% - 17px) !important;
+                            width: 33.5px;
+                            height: 24px;
+                        }
+                        .title-upload-pdf {
+                            display: none;
+                            top: 49px;
+                            font: normal normal normal 7.5px Noto Sans Myanmar;
+                        }
+                        .title-or {
+                            display: none;
+                            top: 61.5px;
+                            font: normal normal bold 9px Noto Sans Myanmar;
+                            padding: 0 15px;
+                        }
+                        .box-btn-pdf {
+                            top: 40px;
+                            left: calc(50% - 46px);
+                            .btn-upload-pdf {
+                                width: 92px;
+                                height: 32px;
+                                line-height: 32px;
+                                border-radius: 3px;
+                                span {
+                                    font: normal normal normal 10px Noto Sans
+                                        Myanmar;
+                                }
+                            }
+                        }
+                    }
+                    .err-upload-file {
+                        margin-top: 0px;
+                        .errMsg {
+                            font: normal normal normal 7px Noto Sans Myanmar;
+                        }
+                    }
+                    .footer-modal {
+                        margin-top: 10px;
+                        margin-bottom: 20px;
+                        .btn-cancel {
+                            width: 50%;
+                            height: 32px;
+                            line-height: 33px;
+                            margin-right: 5.5px;
+                            border-radius: 3px;
+                            span {
+                                font: normal normal normal 13px Noto Sans Myanmar;
+                            }
+                        }
+                        .btn-upload-file {
+                            width: 50%;
+                            height: 32px;
+                            line-height: 33px;
+                            margin-bottom: 13.5px;
+                            border-radius: 3px;
+                            span {
+                                font: normal normal normal 13px Noto Sans Myanmar;
+                            }
+                        }
+                        .btn-submit-modal {
+                            margin-left: 5.5px;
+                            margin-right: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #modalLogout {
+        .modal-content {
+            padding: 45.5px 20.5px;
+            .close-modal {
+                width: 13px;
+                height: 13px;
+                top: -20px;
+            }
+            .title-confirm {
+                font: normal normal bold 15px Noto Sans Myanmar;
+                padding: 0 0 20.5px 0;
+            }
+            .footer {
+                .btn-confirm {
+                    width: 50%;
+                    height: 32px;
+                    margin-right: 5px;
+                    border-radius: 3px;
+                    line-height: 32px;
+                    span {
+                        line-height: 30px;
+                        .logout {
+                            font: normal normal bold 13px Noto Sans Myanmar;
+                        }
+                    }
+                }
+                .btn-cancel {
+                    width: 50%;
+                    height: 32px;
+                    margin-left: 5px;
+                    line-height: 34px;
+                    border-radius: 3px;
+                    span {
+                        font: normal normal bold 13px Noto Sans Myanmar;
+                    }
+                }
+            }
+        }
+    }
+    #modalDeleteBook {
+        .modal-content {
+            padding: 45.5px 20.5px;
+            .close-modal {
+                width: 13px;
+                height: 13px;
+                top: -20px;
+            }
+            .title-confirm {
+                font: normal normal bold 15px Noto Sans Myanmar;
+                padding: 0 0 20.5px 0;
+            }
+            .footer {
+                .btn-confirm {
+                    width: 50%;
+                    height: 32px;
+                    margin-right: 5px;
+                    line-height: 34px;
+                    border-radius: 3px;
+                    span {
+                        font: normal normal bold 13px Noto Sans Myanmar;
+                    }
+                }
+                .btn-cancel {
+                    width: 50%;
+                    height: 32px;
+                    margin-left: 5px;
+                    line-height: 34px;
+                    border-radius: 3px;
+                    span {
+                        font: normal normal bold 13px Noto Sans Myanmar;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 686px) and (min-width: 535px) {
+    #content {
+        .form-group {
+            .noti-upload {
+                font-size: 11px;
+            }
+        }
+    }
+}
+
+.league-ios {
+    margin-top: -5px !important;
+    height: 22px !important;
+}
+
+.pad-top-50 {
+    padding-top: 50px !important;
+}
+
+.pad-top-0 {
+    padding-top: 0 !important;
+}
+
+.pad-top-10 {
+    padding-top: 10px !important;
+}
+
+.mar-top-10 {
+    margin-top: 10px !important;
+}
+
+.mar-bot-0 {
+    margin-bottom: 0 !important;
+}

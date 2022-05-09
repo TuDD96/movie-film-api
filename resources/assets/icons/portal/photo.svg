@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="77.55" height="68.107" viewBox="0 0 77.55 68.107">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4a566e;
+      }
+
+      .cls-2 {
+        fill: #00b594;
+      }
+
+      .cls-3 {
+        fill: #ffcc03;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="photo" transform="translate(0 -18.8)">
+    <g id="Group_954" data-name="Group 954" transform="translate(0 18.8)">
+      <path id="Path_209" data-name="Path 209" class="cls-1" d="M8.94,18.8h45.2a8.96,8.96,0,0,1,8.94,8.94V74.25a8.96,8.96,0,0,1-8.94,8.94H8.94A8.96,8.96,0,0,1,0,74.25V27.64A8.94,8.94,0,0,1,8.94,18.8Z" transform="translate(0 -18.8)"/>
+      <path id="Path_210" data-name="Path 210" class="cls-2" d="M29.232,129.786l-13.26-13.26L0,132.5v10.548a8.96,8.96,0,0,0,8.94,8.94h45.2a8.96,8.96,0,0,0,8.94-8.94V125.868L48.117,110.8Z" transform="translate(0 -87.696)"/>
+      <circle id="Ellipse_89" data-name="Ellipse 89" class="cls-3" cx="5.625" cy="5.625" r="5.625" transform="translate(23.205 15.671)"/>
+      <circle id="Ellipse_90" data-name="Ellipse 90" class="cls-4" cx="14.465" cy="14.465" r="14.465" transform="translate(48.619 39.177)"/>
+    </g>
+    <g id="Group_955" data-name="Group 955" transform="translate(54.144 63.602)">
+      <path id="Path_211" data-name="Path 211" class="cls-2" d="M217.71,228.219a2.122,2.122,0,0,1-2.11-2.11,2.06,2.06,0,0,1,2.11-2.11h13.662a2.11,2.11,0,0,1,0,4.219Z" transform="translate(-215.6 -217.27)"/>
+      <path id="Path_212" data-name="Path 212" class="cls-2" d="M247.019,212.871a2.11,2.11,0,0,1-4.219,0V199.31a2.11,2.11,0,1,1,4.219,0Z" transform="translate(-235.969 -197.2)"/>
+    </g>
+  </g>
+</svg>

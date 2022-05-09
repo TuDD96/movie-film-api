@@ -1,0 +1,15 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "RP6FP3XFYJ.jp.co.comiceria.staging",
+                "paths": [ "/register/confirm", "/password/reset"]
+            },
+            {
+                "appID": "RP6FP3XFYJ.jp.co.comiceria.production",
+                "paths": [ "/register/confirm", "/password/reset"]
+            }
+        ]
+    }
+}
